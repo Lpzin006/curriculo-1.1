@@ -1,0 +1,53 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo da seção de perfil (nome e foto) */
+#perfil {
+    text-align: center; /* Centraliza nome e foto */
+    margin-top: 20px;
+}
+
+#perfil h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px; /* Espaço entre o nome e a foto */
+}
+
+#perfil img {
+    width: 150px; /* Define o tamanho da foto */
+    height: 150px;
+    border-radius: 50%; /* Deixa a foto circular */
+    border: 3px solid #007bff; /* Borda azul */
+    object-fit: cover; /* Ajusta a imagem para cobrir todo o espaço */
+}
+
+/* Estilo de cada seção */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo dos títulos com fundo azul */
+h2 {
+    background-color: #007bff; /* Fundo azul completo */
+    color: white; /* Cor do texto em branco para contraste */
+    padding: 10px; /* Espaçamento interno para o título */
+    margin: 0; /* Remove margens para alinhamento */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #388E3C;
+    text-decoration: underline;
+}
