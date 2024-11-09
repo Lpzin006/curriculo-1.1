@@ -3,8 +3,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    
 }
-
+#ods {
+    width:25%;
+    height:25%;
+}
 /* Estilo da seção de perfil (nome e foto) */
 #perfil {
     text-align: center; /* Centraliza nome e foto */
